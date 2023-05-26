@@ -47,6 +47,17 @@
   @apply hover:border-blue-500;
 }
 
+.bg-gradient-radial-1 {
+  background-image: radial-gradient(circle at center, #ff0019 0%, #ffea00 100%);
+}
+.bg-gradient-radial-2 {
+  background-image: radial-gradient(circle at center, #ffea00 0%, #ff0019 100%);
+}
+
+/* .blob-1 {
+  @apply ;
+} */
+
 /* #root {
   margin: 0 auto;
   padding: 2rem;
