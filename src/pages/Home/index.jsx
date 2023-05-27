@@ -9,7 +9,7 @@ export default function Home() {
 
       {/* Scroll Section */}
       <section className="w-full  text-4xl lg:text-7xl mt-4 ">
-        <Carousel />
+        {/* <Carousel /> */}
       </section>
 
       {/* Intro */}
