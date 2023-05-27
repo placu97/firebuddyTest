@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="navbar bg-secondary rounded-full border-4 border-base-100">
         <div className="navbar-start"></div>
         <div className="navbar-center">
-          <img src="/images/Logo_bg-r.png" className="w-40" />
+          <img src="/images/Logo_bg-r.png" className="w-40 lg:w-60" />
         </div>
         <div className="navbar-end"></div>
       </div>
