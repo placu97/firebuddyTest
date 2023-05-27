@@ -30,8 +30,7 @@ export default function Home() {
 
         {/* blob */}
         <div className="stack items-center">
-
-			{/* swap */}
+          {/* swap */}
           <label className="swap swap-flip text-9xl">
             {/* <!-- this hidden checkbox controls the state --> */}
             <input type="checkbox" />
@@ -39,18 +38,19 @@ export default function Home() {
             <div className="swap-on">☀️</div>
           </label>
 
-		  {/* bg radial blur */}
+          {/* bg radial blur */}
           <div className="w-40 h-40 md:w-60 md:h-60 lg:w-80 lg:h-80 bg-secondary blur-2xl place-items-center overflow-hidden rounded-full mt-6"></div>
         </div>
       </section>
 
       {/* Spiegazione */}
       <section className="container flex flex-col lg:grid  lg:grid-cols-3 gap-5 text-xl font-semibold mt-20">
-        
-		{/* card 1*/}
+        {/* card 1*/}
         <div className="card bg-secondary bordersome  rounded-3xl p-2 md:p-4 lg:p-6">
           <div className="card-body bg-primary rounded-2xl bordersome relative">
-			<div className="bg-white absolute -top-6 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-6xl p-4 rounded-full">1️⃣</div>
+            <div className="bg-white absolute -top-6 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-6xl p-4 rounded-full">
+              1️⃣
+            </div>
             <div className="card-title text-2xl font-bold">
               Con Firbuddy trovi sessioni di allenamento nella tua zona
             </div>
@@ -60,10 +60,12 @@ export default function Home() {
           </div>
         </div>
 
-		{/* card 2*/}
+        {/* card 2*/}
         <div className="card bg-secondary bordersome  rounded-3xl p-2 md:p-4 lg:p-6">
           <div className="card-body bg-primary rounded-2xl bordersome relative">
-			<div className="bg-white absolute -top-6 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-6xl p-4 rounded-full">2️⃣</div>
+            <div className="bg-white absolute -top-6 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-6xl p-4 rounded-full">
+              2️⃣
+            </div>
             <div className="card-title text-2xl font-bold">
               Scegli gli sport che vuoi seguire
             </div>
@@ -71,21 +73,31 @@ export default function Home() {
           </div>
         </div>
 
-		{/* card 3*/}
+        {/* card 3*/}
         <div className="card bg-secondary bordersome  rounded-3xl p-2 md:p-4 lg:p-6">
           <div className="card-body bg-primary rounded-2xl bordersome relative">
-			<div className="bg-white absolute -top-6 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-6xl p-4 rounded-full">3️⃣</div>
+            <div className="bg-white absolute -top-6 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-6xl p-4 rounded-full">
+              3️⃣
+            </div>
             <div className="card-title text-2xl font-bold">
               Fare Sport in compagnia non è mai stato tanto conveniente !
             </div>
-            Impara nuove tattiche d'allenamento coi Maestri Amatoriali, applica filtri di selezione per età e sesso grazie ai <span className="font-extrabold underline underline-offset-auto leading-3">Profili Verificati</span> e aggregati a gruppi già formati: pronto a pedalare ?
+            Impara nuove tattiche d'allenamento coi Maestri Amatoriali, applica
+            filtri di selezione per età e sesso grazie ai{" "}
+            <span className="font-extrabold underline underline-offset-auto leading-3">
+              Profili Verificati
+            </span>{" "}
+            e aggregati a gruppi già formati: pronto a pedalare ?
           </div>
         </div>
+      </section>
 
-		{/* Ci starebbe sezione su esempi/testimonianze quando ci saranno / mockup */}
+      {/* Ci starebbe sezione su esempi/testimonianze quando ci saranno / mockup */}
 
-		{/* Registrati */}
-		
+      {/* Registrati ora */}
+      <section>
+		{/* vedere come fa l indiano lihtcode a fare spinswapturn */}
+        <di></di>
       </section>
     </>
   );
