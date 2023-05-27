@@ -18,7 +18,7 @@ export default function Carousel() {
       <div>
         <h3>🏃‍♀️</h3>
       </div>
-      <div>
+      {/* <div>
         <h3>🏋️</h3>
       </div>
       <div>
@@ -36,7 +36,7 @@ export default function Carousel() {
       <div>
         <h3>🏄‍♀️</h3>
       </div>
-      {/* <div>
+      <div>
         <h3>🚣‍♂️</h3>
       </div>
       <div>

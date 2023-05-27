@@ -97,7 +97,7 @@ export default function Home() {
       {/* Registrati ora */}
       <section>
 		{/* vedere come fa l indiano lihtcode a fare spinswapturn */}
-        <di></di>
+        <div></div>
       </section>
     </>
   );
